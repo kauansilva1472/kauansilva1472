@@ -90,8 +90,8 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="430">- GitHub Stats</tspan> <tspan class="cc">--------------------------------------------</tspan>
 <!--STATS_START-->
 <tspan x="390" y="450" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">9</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">13</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">3</tspan>
-<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">112</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">11</tspan>
-<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">4,484</tspan> ( <tspan class="addColor">6,627</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">2,143</tspan><tspan class="delColor">--</tspan> )
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">115</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">11</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">4,484</tspan> ( <tspan class="addColor">6,630</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">2,146</tspan><tspan class="delColor">--</tspan> )
 <!--STATS_END-->
 </text>
 </svg>
