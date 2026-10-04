@@ -1,3 +1,6 @@
 <p align="center">
-  <img alt="Cartão de perfil do Kauã" src="./dark_mode.svg" />
+  <img
+    alt="Cartão de perfil do Kauã"
+    src="https://raw.githubusercontent.com/kauansilva1472/kauansilva1472/principal/dark_mode.svg"
+  />
 </p>
