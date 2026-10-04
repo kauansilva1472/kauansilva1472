@@ -1,1 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530">
+  <style>
+    text { font-family: Consolas, "Courier New", monospace; white-space: pre; }
+    .main { fill: #c9d1d9; }
+    .key { fill: #ffa657; }
+    .value { fill: #a5d6ff; }
+    .muted { fill: #616e7f; }
+    .green { fill: #3fb950; }
+    .line { stroke: #30363d; stroke-width: 1; }
+  </style>
 
+  <rect width="985" height="530" rx="15" fill="#161b22"/>
+
+  <rect x="20" y="20" width="330" height="490" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="42" y="58" class="muted" font-size="16">$ whoami</text>
+  <text x="42" y="190" fill="#ffa657" font-size="92" font-weight="bold">&lt;/&gt;</text>
+  <line x1="42" y1="220" x2="325" y2="220" class="line"/>
+  <text x="42" y="258" class="main" font-size="20" font-weight="bold">Kauã Silva de Jesus</text>
+  <text x="42" y="290" class="value" font-size="16">Estudante de ADS | FIAP</text>
+  <text x="42" y="340" class="muted" font-size="15">Aprendendo e construindo</text>
+  <text x="42" y="365" class="muted" font-size="15">projetos com tecnologia.</text>
+  <text x="42" y="445" class="green" font-size="15">status: estudando e evoluindo</text>
+  <text x="42" y="478" class="muted" font-size="14">github.com/kauansilva1472</text>
+
+  <text x="385" y="45" class="main" font-size="22" font-weight="bold">kaua@github</text>
+  <line x1="385" y1="58" x2="960" y2="58" class="line"/>
+
+  <text x="385" y="92" class="muted" font-size="16">.</text>
+  <text x="405" y="92" class="key" font-size="16">Formação</text>
+  <text x="530" y="92" class="value" font-size="16">Análise e Desenvolvimento de Sistemas — FIAP</text>
+
+  <text x="385" y="125" class="muted" font-size="16">.</text>
+  <text x="405" y="125" class="key" font-size="16">IDE</text>
+  <text x="530" y="125" class="value" font-size="16">VS Code, IntelliJ IDEA</text>
+
+  <text x="385" y="158" class="muted" font-size="16">.</text>
+  <text x="405" y="158" class="key" font-size="16">Linguagens</text>
+  <text x="530" y="158" class="value" font-size="16">Java, JavaScript, TypeScript</text>
+
+  <text x="385" y="191" class="muted" font-size="16">.</text>
+  <text x="405" y="191" class="key" font-size="16">Web e dados</text>
+  <text x="530" y="191" class="value" font-size="16">React, HTML, CSS, SQL</text>
+
+  <text x="385" y="224" class="muted" font-size="16">.</text>
+  <text x="405" y="224" class="key" font-size="16">Interesse</text>
+  <text x="530" y="224" class="value" font-size="16">Desenvolvimento de software</text>
+
+  <text x="385" y="278" class="main" font-size="18" font-weight="bold">Projetos</text>
+  <line x1="385" y1="290" x2="960" y2="290" class="line"/>
+
+  <text x="385" y="326" class="muted" font-size="16">.</text>
+  <text x="405" y="326" class="key" font-size="16">Sentinel Verde</text>
+  <text x="555" y="326" class="value" font-size="16">Monitoramento ambiental</text>
+
+  <text x="385" y="360" class="muted" font-size="16">.</text>
+  <text x="405" y="360" class="key" font-size="16">SpaceWaste</text>
+  <text x="555" y="360" class="value" font-size="16">Projeto sobre detritos espaciais</text>
+
+  <text x="385" y="394" class="muted" font-size="16">.</text>
+  <text x="405" y="394" class="key" font-size="16">Monster</text>
+  <text x="555" y="394" class="value" font-size="16">Projeto de loja virtual</text>
+
+  <text x="385" y="448" class="main" font-size="18" font-weight="bold">Contato</text>
+  <line x1="385" y1="460" x2="960" y2="460" class="line"/>
+  <text x="385" y="493" class="key" font-size="16">GitHub</text>
+  <text x="475" y="493" class="value" font-size="16">github.com/kauansilva1472</text>
+</svg>
