@@ -4,62 +4,58 @@
     .main { fill: #c9d1d9; }
     .key { fill: #ffa657; }
     .value { fill: #a5d6ff; }
-    .muted { fill: #616e7f; }
+    .muted { fill: #8b949e; }
     .green { fill: #3fb950; }
     .line { stroke: #30363d; stroke-width: 1; }
   </style>
-
   <rect width="985" height="530" rx="15" fill="#161b22"/>
-
   <rect x="20" y="20" width="330" height="490" rx="12" fill="#0d1117" stroke="#30363d"/>
-  <text x="42" y="58" class="muted" font-size="16">$ whoami</text>
-  <text x="42" y="190" fill="#ffa657" font-size="92" font-weight="bold">&lt;/&gt;</text>
-  <line x1="42" y1="220" x2="325" y2="220" class="line"/>
-  <text x="42" y="258" class="main" font-size="20" font-weight="bold">Kauã Silva de Jesus</text>
-  <text x="42" y="290" class="value" font-size="16">Estudante de ADS | FIAP</text>
-  <text x="42" y="340" class="muted" font-size="15">Aprendendo e construindo</text>
-  <text x="42" y="365" class="muted" font-size="15">projetos com tecnologia.</text>
-  <text x="42" y="445" class="green" font-size="15">status: estudando e evoluindo</text>
-  <text x="42" y="478" class="muted" font-size="14">github.com/kauansilva1472</text>
+  <text x="42" y="42" class="muted" font-size="14">$ whoami</text>
+  <defs>
+    <clipPath id="rosto-pescoco">
+      <rect x="67" y="50" width="236" height="276" rx="10"/>
+    </clipPath>
+  </defs>
+  <image x="67" y="50" width="236" height="276"
+    href="data:image/jpeg;base64,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"
+    preserveAspectRatio="none"
+    clip-path="url(#rosto-pescoco)"/>
+  <line x1="42" y1="340" x2="328" y2="340" class="line"/>
+  <text x="42" y="370" class="main" font-size="19" font-weight="bold">Kauã Silva de Jesus</text>
+  <text x="42" y="397" class="value" font-size="15">Estudante de ADS | FIAP</text>
+  <text x="42" y="427" class="muted" font-size="14">Aprendendo e construindo</text>
+  <text x="42" y="448" class="muted" font-size="14">projetos com tecnologia.</text>
+  <text x="42" y="478" class="green" font-size="13">status: estudando e evoluindo</text>
+  <text x="42" y="498" class="muted" font-size="12">github.com/kauansilva1472</text>
 
   <text x="385" y="45" class="main" font-size="22" font-weight="bold">kaua@github</text>
   <line x1="385" y1="58" x2="960" y2="58" class="line"/>
-
   <text x="385" y="92" class="muted" font-size="16">.</text>
   <text x="405" y="92" class="key" font-size="16">Formação</text>
   <text x="530" y="92" class="value" font-size="16">Análise e Desenvolvimento de Sistemas — FIAP</text>
-
   <text x="385" y="125" class="muted" font-size="16">.</text>
   <text x="405" y="125" class="key" font-size="16">IDE</text>
   <text x="530" y="125" class="value" font-size="16">VS Code, IntelliJ IDEA</text>
-
   <text x="385" y="158" class="muted" font-size="16">.</text>
   <text x="405" y="158" class="key" font-size="16">Linguagens</text>
   <text x="530" y="158" class="value" font-size="16">Java, JavaScript, TypeScript</text>
-
   <text x="385" y="191" class="muted" font-size="16">.</text>
   <text x="405" y="191" class="key" font-size="16">Web e dados</text>
   <text x="530" y="191" class="value" font-size="16">React, HTML, CSS, SQL</text>
-
   <text x="385" y="224" class="muted" font-size="16">.</text>
   <text x="405" y="224" class="key" font-size="16">Interesse</text>
   <text x="530" y="224" class="value" font-size="16">Desenvolvimento de software</text>
-
   <text x="385" y="278" class="main" font-size="18" font-weight="bold">Projetos</text>
   <line x1="385" y1="290" x2="960" y2="290" class="line"/>
-
   <text x="385" y="326" class="muted" font-size="16">.</text>
   <text x="405" y="326" class="key" font-size="16">Sentinel Verde</text>
   <text x="555" y="326" class="value" font-size="16">Monitoramento ambiental</text>
-
   <text x="385" y="360" class="muted" font-size="16">.</text>
   <text x="405" y="360" class="key" font-size="16">SpaceWaste</text>
   <text x="555" y="360" class="value" font-size="16">Projeto sobre detritos espaciais</text>
-
   <text x="385" y="394" class="muted" font-size="16">.</text>
   <text x="405" y="394" class="key" font-size="16">Monster</text>
   <text x="555" y="394" class="value" font-size="16">Projeto de loja virtual</text>
-
   <text x="385" y="448" class="main" font-size="18" font-weight="bold">Contato</text>
   <line x1="385" y1="460" x2="960" y2="460" class="line"/>
   <text x="385" y="493" class="key" font-size="16">GitHub</text>
