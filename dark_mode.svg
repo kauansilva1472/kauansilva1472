@@ -1,63 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530">
-  <style>
-    text { font-family: Consolas, "Courier New", monospace; white-space: pre; }
-    .main { fill: #c9d1d9; }
-    .key { fill: #ffa657; }
-    .value { fill: #a5d6ff; }
-    .muted { fill: #8b949e; }
-    .green { fill: #3fb950; }
-    .line { stroke: #30363d; stroke-width: 1; }
-  </style>
-  <rect width="985" height="530" rx="15" fill="#161b22"/>
-  <rect x="20" y="20" width="330" height="490" rx="12" fill="#0d1117" stroke="#30363d"/>
-  <text x="42" y="42" class="muted" font-size="14">$ whoami</text>
-  <defs>
-    <clipPath id="rosto-pescoco">
-      <rect x="67" y="50" width="236" height="276" rx="10"/>
-    </clipPath>
-  </defs>
-  <image x="67" y="50" width="236" height="276"
-    href="data:image/jpeg;base64,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"
-    preserveAspectRatio="none"
-    clip-path="url(#rosto-pescoco)"/>
-  <line x1="42" y1="340" x2="328" y2="340" class="line"/>
-  <text x="42" y="370" class="main" font-size="19" font-weight="bold">Kauã Silva de Jesus</text>
-  <text x="42" y="397" class="value" font-size="15">Estudante de ADS | FIAP</text>
-  <text x="42" y="427" class="muted" font-size="14">Aprendendo e construindo</text>
-  <text x="42" y="448" class="muted" font-size="14">projetos com tecnologia.</text>
-  <text x="42" y="478" class="green" font-size="13">status: estudando e evoluindo</text>
-  <text x="42" y="498" class="muted" font-size="12">github.com/kauansilva1472</text>
-
-  <text x="385" y="45" class="main" font-size="22" font-weight="bold">kaua@github</text>
-  <line x1="385" y1="58" x2="960" y2="58" class="line"/>
-  <text x="385" y="92" class="muted" font-size="16">.</text>
-  <text x="405" y="92" class="key" font-size="16">Formação</text>
-  <text x="530" y="92" class="value" font-size="16">Análise e Desenvolvimento de Sistemas — FIAP</text>
-  <text x="385" y="125" class="muted" font-size="16">.</text>
-  <text x="405" y="125" class="key" font-size="16">IDE</text>
-  <text x="530" y="125" class="value" font-size="16">VS Code, IntelliJ IDEA</text>
-  <text x="385" y="158" class="muted" font-size="16">.</text>
-  <text x="405" y="158" class="key" font-size="16">Linguagens</text>
-  <text x="530" y="158" class="value" font-size="16">Java, JavaScript, TypeScript</text>
-  <text x="385" y="191" class="muted" font-size="16">.</text>
-  <text x="405" y="191" class="key" font-size="16">Web e dados</text>
-  <text x="530" y="191" class="value" font-size="16">React, HTML, CSS, SQL</text>
-  <text x="385" y="224" class="muted" font-size="16">.</text>
-  <text x="405" y="224" class="key" font-size="16">Interesse</text>
-  <text x="530" y="224" class="value" font-size="16">Desenvolvimento de software</text>
-  <text x="385" y="278" class="main" font-size="18" font-weight="bold">Projetos</text>
-  <line x1="385" y1="290" x2="960" y2="290" class="line"/>
-  <text x="385" y="326" class="muted" font-size="16">.</text>
-  <text x="405" y="326" class="key" font-size="16">Sentinel Verde</text>
-  <text x="555" y="326" class="value" font-size="16">Monitoramento ambiental</text>
-  <text x="385" y="360" class="muted" font-size="16">.</text>
-  <text x="405" y="360" class="key" font-size="16">SpaceWaste</text>
-  <text x="555" y="360" class="value" font-size="16">Projeto sobre detritos espaciais</text>
-  <text x="385" y="394" class="muted" font-size="16">.</text>
-  <text x="405" y="394" class="key" font-size="16">Monster</text>
-  <text x="555" y="394" class="value" font-size="16">Projeto de loja virtual</text>
-  <text x="385" y="448" class="main" font-size="18" font-weight="bold">Contato</text>
-  <line x1="385" y1="460" x2="960" y2="460" class="line"/>
-  <text x="385" y="493" class="key" font-size="16">GitHub</text>
-  <text x="475" y="493" class="value" font-size="16">github.com/kauansilva1472</text>
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTphMGFkZWM0Ny1mOWMwLTRjZGEtYjIzYS0yNzc2Y2E0YmFmNDQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaCcvnRNWW4bm3l2R6BGCavYAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0MjczYmE1ZS0yNTlkLTQ1NTAtOWM3Mi1hOTkzYWYzODY0N2VscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoSUS5lh3RvtuIkD3H4TcBLwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggb2jHpSvsp0/xKhDfyjo/9KWvzURbSk9HmjTQK6VYVoKkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaIMBFzGTMOp1bAvf6HpDv1gAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDBB3chlM3Bm8bNRSfaDl7ubqrTJz00/pV3LLK54E7CYWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjuZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmEwYWRlYzQ3LWY5YzAtNGNkYS1iMjNhLTI3NzZjYTRiYWY0NC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjNiOTk4NWQ4LTRhOTAtNGM2OS1hZTZkLWU3OTAxMDMzMmU1NXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBvaMelK+ynT/EqEN/KOj/0pa/NRFtKT0eaNNArpVhWgqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg0r3NIbT/UHfKH+sZz1k6Z1j1I/6fa6ZrmIIFJMZMUjmiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggmlQN0giPTvhlinYKnJV7g3r47PKMEQ0hxH0wrERniWB0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQGX7wNbrJL5GWO/OXIyrhyqNyFE7n5xvfOxcX4G5VvsnSWxgvAkyyt1XYytgDYsOLvR3Ke+t0vFqMBfn0vXueyQ=</c2pa:manifest></metadata>
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.cc {fill: #616e7f;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="530px" fill="#161b22" rx="15"/>
+<text x="15" y="30" fill="#c9d1d9" class="ascii" font-size="8px">
+<tspan x="15" y="30"></tspan>
+<tspan x="15" y="40"></tspan>
+<tspan x="15" y="50">                                        M</tspan>
+<tspan x="15" y="60">                                  Ky[u)!_)f%KDKy===E</tspan>
+<tspan x="15" y="70">                              MWu,-----------------,f%5</tspan>
+<tspan x="15" y="80">                           55)~-----------------------'cH8</tspan>
+<tspan x="15" y="90">                         Mu-----------------------------'~=W</tspan>
+<tspan x="15" y="100">                        8*---------------''--------------';[PD</tspan>
+<tspan x="15" y="110">                       M!-------------''--------------------~[M</tspan>
+<tspan x="15" y="120">                     W%*----------~,,~*[f[-!;_---'~,---------'P8</tspan>
+<tspan x="15" y="130">                    W!-------'**)*!,r[hEEh)*r_)r=[c_'----------h</tspan>
+<tspan x="15" y="140">                    D-------,cPEEEP5K8MMMMW8DKH88Hy)*','-------yM</tspan>
+<tspan x="15" y="150">                    )-----~=hEP55%%EKHH8MMMMMMMMMMDPh!__-------)88</tspan>
+<tspan x="15" y="160">                   W-----r5P5yuuu[==*;,'~*PMMMMMMMMMWPy=-_r'---,5W</tspan>
+<tspan x="15" y="170">                   E----;h5PPP5h%5KD8%[==cyHMMMMW88WMMMHc;_'---'h8</tspan>
+<tspan x="15" y="180">                 KHh'--'f55EEh[*_*_r[[)=cf%HMMWP=*!,;[KWMD5!---cM</tspan>
+<tspan x="15" y="190">               DuyPPy_'cP5PEKEy[c[))f[)uuf5DMMK)!!r))=rr%WM=---E</tspan>
+<tspan x="15" y="200">               fuE5h5uyPPPEKD8WWWW88DKE5PEHWMMD[;_rfH8K5yyH!--;M</tspan>
+<tspan x="15" y="210">              8[5Pu)yhPPPEKDWMMMMMMMM8PPKKHMMMMKfr;,,*uuy5Hr-,E</tspan>
+<tspan x="15" y="220">              8ffcchhh5PPKHDWMMMMMMMDh5r~;[PP5HMWH%uyy%5PDE,_H</tspan>
+<tspan x="15" y="230">               y%5uu%h555EHDDWMMMMW8K5%yyhh%r,)8MMMMMMMMM8)[</tspan>
+<tspan x="15" y="240">               85%hyyhh55PEKHHHDDDHDWWWMMMMMWPPWMMMMMMMMMW8</tspan>
+<tspan x="15" y="250">                  8fhh5PEPPEEEHDhc[[[[fyh5HWMMMMMMMMMMMMMWHP</tspan>
+<tspan x="15" y="260">                  M%h5PEEEEPPPKDKP%uu%55%ffff58WMMMWMMMMW5rc</tspan>
+<tspan x="15" y="270">                  W%55PEEKEP5PEKDDKPh%[=[yEKh~*hDW8D8DD8MDuH</tspan>
+<tspan x="15" y="280">                  Dh55PPEEE55PEKHHD8DE%[==[yPEuuEDDHKKKEDW</tspan>
+<tspan x="15" y="290">                  E%h5h555PP5PKHD8WMMMMMMMW8D88DKHHKKKWM</tspan>
+<tspan x="15" y="300">                 M5h%uffu%%h55PEHD8WMMMMMMMMMWDKEKHHKEK</tspan>
+<tspan x="15" y="310">                 Whhhy[==)))=[uyyyy%hPEKHDMMMWHKKHHK8</tspan>
+<tspan x="15" y="320">                 D55555hyu[cc))rr****rr*r=yEKPh5P5PW</tspan>
+<tspan x="15" y="330">               88E5PEEEP5hyuuf[c=)r*!_;~~;;!**!ryK</tspan>
+<tspan x="15" y="340">            [;'-*5PEEKKKKPP5555h%u[)r!!!!*!!*)cPM</tspan>
+<tspan x="15" y="350">          %;---~uPEKHHHHHKKEEKKEEEPh%u[c[[==c5D8</tspan>
+<tspan x="15" y="360">       W%_''--~)hEKHDDDDDDHKKKKKKKKE5%uuy%hKWMM</tspan>
+<tspan x="15" y="370">     Wy;,,,,'-,*hEHDD888DDDHKKKKE5h55h5KH8MMMMM</tspan>
+<tspan x="15" y="380">  hfr~,~~~;~,--*5KDD888888DHKKKEE5h%hEHDDWMMMMM</tspan>
+<tspan x="15" y="390"> ;;;,,;;;_;;~~,!hHDDDD888DDHHHKKKEEEKHD8MMMMMMP[PK8</tspan>
+<tspan x="15" y="400"> _!;,~__!!____;;[ED8DDDDDDDDHKKKHDHDDD8MMMMMM8c)rrrrc58</tspan>
+<tspan x="15" y="410"> ***;_*!!!!!!!!!)hH8DDHHD88W8HKKEPEEKDWMMMW8Df*)==cc!;![5H8</tspan>
+<tspan x="15" y="420"> ==r_==)r*rrrrr))ryKDDDDDWMMMWDHHHDDDWMMW8DK[,)c[[[u[r_;*=c[u5H</tspan>
+<tspan x="15" y="430"> [c!=[[c))))==ccc_-_uHDHHWMMMMWDDDD8WMMWWWDh'~=ffffuu[)__*)====c[%E8</tspan>
+<tspan x="15" y="440"> [=;;!=[c=)=c=ccc='--'~_)u5HWMMMMWWMMMMMMM8=-rcfuuuyyyf)***=cc=cccc=[h</tspan>
+<tspan x="15" y="450"> ccr_,',~_r[[[[cc[r----------,;!*)cfuf[=)!,-~[[[[fuy%%yf=))=[[cccccccc[</tspan>
+<tspan x="15" y="460"> ccc==cf[[cccccc[[u~------------------------*uuuff[[=)=c[[cc[ff[cc[[[[[</tspan>
+<tspan x="15" y="470"> c*r[fffuufff[[[[[f)------'--''''''''-------=yyyyuuuffuuufffuuuf[[[[[[[</tspan>
+<tspan x="15" y="480"> [*~)ffffufff[[[[fff;-----''',,,,,,,,,'----'f%%%yuuffuf[fuuuyuuffffffuu</tspan>
+<tspan x="15" y="490"> [[*,)uffffff[[[[[fu[-----''',,~~~~~,,''---;yhh%%yyf[[[ffuuuuuuffffffuu</tspan>
+<tspan x="15" y="500"></tspan>
+</text>
+<text x="390" y="30" fill="#c9d1d9">
+<tspan x="390" y="30">kaua@github</tspan> <tspan class="cc">-----------------------------------------------</tspan>
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">Formação</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">Análise e Desenvolvimento de Sistemas — FIAP</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Turma</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">1TDSPF</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Grupo</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value">AstroDevs</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">VS Code, IntelliJ IDEA</tspan>
+<tspan x="390" y="130" class="cc">. </tspan>
+<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">Linguagens</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Java, JavaScript, TypeScript</tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Web e dados</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">React, HTML, CSS, SQL</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Interesse</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Desenvolvimento de software</tspan>
+<tspan x="390" y="210" class="cc">. </tspan>
+<tspan x="390" y="230">- Projetos</tspan> <tspan class="cc">------------------------------------------------</tspan>
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Sentinel Verde</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Monitoramento ambiental</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">SpaceWaste</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Projeto sobre detritos espaciais</tspan>
+<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Monster</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Projeto de loja virtual</tspan>
+<tspan x="390" y="310" class="cc">. </tspan>
+<tspan x="390" y="330">- Contato</tspan> <tspan class="cc">-------------------------------------------------</tspan>
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">github.com/kauansilva1472</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">linkedin.com/in/kauansilva1472</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">kauansilva1465285@gmail.com</tspan>
+</text>
 </svg>
